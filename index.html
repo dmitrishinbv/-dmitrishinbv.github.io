@@ -1,14 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <title>Bohdan Dmytryshyn - Resume</title>
+
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .header {
+            color: darkslategrey;
+            letter-spacing: 3px;
+            margin: 20px;
+            padding-bottom: 20px;
+        }
+
+        .content {
+            float: left;
+            line-height: 150%;
+            max-width: 60%;
+            margin: 20px;
+        }
+
+        .photo {
+            float: right;
+            vertical-align: top;
+            margin: 20px 30px;
+            opacity: 0.8;
+        }
+
+        .photo:hover {
+            opacity: 0.4;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        a:link {
+            padding: 5px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: solid 1px slategray;
+        }
+
+        img.icons {
+            vertical-align: bottom;
+            max-width: 20px;
+            margin-left: 30px;
+            margin-right: 10px;
+        }
+
+        #rounded {
+            border-radius: 50%;
+        }
+
+
+    </style>
 </head>
+
 <body>
 
-Hello
+<div class="content">
+    <h1 class="header">Bohdan Dmytryshyn</h1>
+    <p>
+        Front-end, back-end developer. Courses: </p>
+    <ol>
+        <li>Stanford CSA106 + CSB106 (finished in December 2019)</li>
+        <li>Shpp mentor's back-end (started in February 2020)</li>
+        <li>Shpp mentor's front-end (started in April 2020)</li>
+    </ol>
+    <p>Skills: </p>
+    <ul>
+        <li>Computer science</li>
+        <li>Java</li>
+        <li>PHP</li>
+        <li>MYSQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Code review</li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </p>
+    <a href="mailto:dmitrishinbv@gmail.com" target="_blank">
+        <img class="icons" src="iconfinder_gmail_1220367.png" alt="Gmail">dmitrishinbv@gmail.com</a>
+    <a title="Telegram" href="https://telegram.me/bdmytryshyn" target="_blank">
+        <img class="icons" src="iconfinder_social-07_3146784.png" alt="Telegram - Send message">@bdmytryshyn</a>
+</div>
+
+<div class="photo">
+    <img id="rounded" src="my_photo.jpg" alt="my photo">
+</div>
 
 </body>
 </html>
